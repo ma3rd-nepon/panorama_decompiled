@@ -1,0 +1,694 @@
+/* Prettified by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io */
+
+DOTATreasureRecycleStatus
+{
+	width: 100%;
+}
+
+DOTATreasureStickerPackDetailsPage DOTATreasureRecycleStatus
+{
+	width: 100%;
+	max-width: 600px;
+}
+
+DOTATreasureStickerPackDetailsPage #TreasureRecycling
+{
+	background-color: gradient( radial, 0% 0%, 0% 0%, 120% 120%, from( #ddf0ff09 ), to( #ddf0ff03 ) );
+	border: 1px solid rgba(223, 240, 255, 0.087);
+	border-brush: gradient( radial, 0% 0%, 0% 0%, 100% 100%, from( #ffffff ), to( #ffffff40 ) );
+	padding: 12px;
+}
+
+#TreasureRecycling
+{
+	visibility: collapse;
+	width: 100%;
+	flow-children: down;
+}
+
+.TreasureRecyclingGrantEnabled #TreasureRecycling
+{
+	visibility: visible;
+}
+
+.TreasureRecyclingGrantEnabled #TreasureRecyclingButton
+{
+	brightness: 1;
+}
+
+.RecyclingIcon
+{
+	width: 22px;
+	vertical-align: center;
+	margin-right: 8px;
+	opacity-brush: gradient( linear, 0% 0%, 0% 100%, from( LightestGrey ), to( LightGrey ) );
+	img-shadow: 0px 1px 8px black;
+}
+
+.TreasureRecyclingTitle
+{
+	text-shadow: 0px 1px 8px black;
+	color: gradient( linear, 0% 0%, 0% 100%, from( whitesmoke ), to( LighterGrey ) );
+	font-weight: semi-bold;
+}
+
+DOTAPopupUITreasureRecycling .TreasureRecyclingTitle
+{
+	font-size: 22px;
+}
+
+#TreasureRecyclingHeader
+{
+	flow-children: right;
+	margin-bottom: 2px;
+}
+
+#TreasureRecyclingTop
+{
+	vertical-align: top;
+	horizontal-align: left;
+	width: fill-parent-flow(1);
+	vertical-align: center;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+}
+
+DOTAPopupUITreasureRecycling #TreasureRecyclingTop
+{
+	padding: 24px;
+	padding-bottom: 16px;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-image: url("s2r://panorama/images/textures/miniprofile_rock_psd.vtex");
+	background-size: cover;
+	background-img-opacity: 0.4;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+#RecyclingInfoIcon
+{
+	width: 16px;
+	height: 16px;
+	z-index: 100;
+	vertical-align: center;
+	horizontal-align: right;
+	margin-right: 8px;
+	margin-left: 0px;
+	wash-color: white;
+	opacity-brush: gradient( linear, 0% 0%, 0% 100%, from( LightestGrey ), to( LightGrey ) );
+	tooltip-position: top;
+}
+
+.TreasureRecyclingSubtitle
+{
+	color: LightGrey;
+	margin-bottom: 2px;
+	text-shadow: 0px 1px 8px black;
+}
+
+.ShowForEconRecycling
+{
+	visibility: collapse;
+}
+
+#RecyclingRewardProgress
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	vertical-align: center;
+	flow-children: right;
+	blur: none;
+	brightness: 1.0;
+}
+
+.RecyclingRequiresPlusSubscription #RecyclingRewardProgress
+{
+	blur: gaussian( 3 );
+	brightness: 0.25;
+}
+
+#TreasureRecycling .DotaPlusSubscribeButton
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#TreasureRecycling .DotaPlusUpsell
+{
+	margin-left: 50px;
+	margin-top: -110px;
+	horizontal-align: center;
+	width: 400px;
+	height: 100px;
+}
+
+#TreasureRecycling .DotaPlusUpsellContents
+{
+	flow-children: down;
+}
+
+.DotaPlusUpsellContents
+{
+	visibility: collapse;
+}
+
+.RecyclingRequiresPlusSubscription .DotaPlusUpsellContents
+{
+	visibility: visible;
+}
+
+#RecyclingPunchCard
+{
+	vertical-align: center;
+	horizontal-align: left;
+	width: fill-parent-flow(1.0);
+}
+
+#RecyclingPunchCard .StampPanel:selected
+{
+	brightness: 0.6;
+}
+
+#RecyclingPunchCard #RewardPanel
+{
+	visibility: collapse;
+}
+
+#RecyclingReward
+{
+	margin: 2px;
+}
+
+#RecyclingRewardContainer
+{
+	vertical-align: bottom;
+	border-radius: 3px;
+	margin: 3px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#RecyclingRewardButton
+{
+	visibility: collapse;
+}
+
+.BonusTreasureClaimable #RecyclingRewardButton
+{
+	visibility: visible;
+}
+
+DOTAPopupUITreasureRecycling #RecyclingRewardButton
+{
+	horizontal-align: right;
+	height: fit-children;
+	padding: 8px 64px;
+}
+
+DOTAPopupUITreasureRecycling #RecyclingRewardButton Label
+{
+	font-weight: semi-bold;
+	font-size: 18px;
+}
+
+.TreasureClaimBorder
+{
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgb(255, 232, 193);
+	border-radius: 3px;
+	visibility: collapse;
+}
+
+.BonusTreasureClaimable .TreasureClaimBorder
+{
+	visibility: visible;
+	animation-name: GlowClaimBorder;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+.RecyclingRewardContents
+{
+	flow-children: right;
+	horizontal-align: center;
+}
+
+#RecyclingRewardBackground
+{
+	width: 150px;
+	height: 150px;
+	margin-top: -10px;
+	horizontal-align: right;
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
+	visibility: collapse;
+}
+
+.TreasureOpeningResultItemPanel
+{
+	vertical-align: bottom;
+}
+
+#RecyclingTreasureImageContainer
+{
+	width: 56px;
+	height: 38px;
+	vertical-align: center;
+	overflow: clip;
+}
+
+#RecyclingTreasureImageContainer #RecyclingTreasureImage
+{
+	width: 102%;
+	height: 102%;
+	overflow: noclip;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+#RecyclingTreasureImageContainer #RecyclingTreasureQty
+{
+	color: white;
+	font-size: 18px;
+	font-weight: semi-bold;
+	text-shadow: 0px 2px 12px black;
+	vertical-align: bottom;
+	horizontal-align: right;
+	margin: 4px;
+	visibility: collapse;
+}
+
+.CanClaimFX
+{
+	vertical-align: center;
+	horizontal-align: center;
+	width: 280%;
+	height: 200%;
+	ignore-parent-flow: true;
+	overflow: noclip;
+	brightness: 2;
+	hue-rotation: 10deg;
+	visibility: collapse;
+}
+
+@keyframes 'GlowClaimBorder'
+{
+	0%
+	{
+		opacity: 0.2;
+		brightness: 1;
+	}
+	
+	100%
+	{
+		opacity: 1;
+		brightness: 1;
+	}
+	
+}
+
+.RecyclingTreasureHasQuantity #RecyclingTreasureQty
+{
+	visibility: visible;
+}
+
+#RecyclingAdditionalItemQty
+{
+	color: white;
+	font-size: 14px;
+	vertical-align: bottom;
+	horizontal-align: right;
+	visibility: collapse;
+}
+
+.RecyclingAdditionalRewardHasQuantity #RecyclingAdditionalItemQty
+{
+	visibility: visible;
+}
+
+#RecyclingRewardSeparator
+{
+	margin: 1px;
+	color: Grey;
+	visibility: collapse;
+}
+
+.HasShardRecyclingReward #RecyclingRewardSeparator,.HasAdditionalItemRecyclingReward #RecyclingRewardSeparator,.HasMysteryItemRecyclingReward #RecyclingRewardSeparator
+{
+	visibility: visible;
+}
+
+#RecyclingShardReward
+{
+	margin-right: 4px;
+	vertical-align: center;
+	horizontal-align: center;
+	visibility: collapse;
+}
+
+.HasShardRecyclingReward #RecyclingShardReward
+{
+	visibility: visible;
+}
+
+#RecyclingBattlePassReward
+{
+	width: 61px;
+	height: 60px;
+	background-image: url("s2r://panorama/images/compendium/international2019/prestigerewards/mystery_item_png.vtex");
+	background-size: contain;
+	background-repeat: no-repeat;
+	visibility: collapse;
+}
+
+.HasMysteryItemRecyclingReward #RecyclingBattlePassReward
+{
+	visibility: visible;
+}
+
+#RarityText
+{
+	vertical-align: center;
+	margin-right: 8px;
+	font-weight: semi-bold;
+	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.TreasureItemRarity_Default #RarityText
+{
+	visibility: collapse;
+}
+
+.TreasureItemRarity_Rare #RarityText
+{
+	color: rareTextColor;
+}
+
+.TreasureItemRarity_VeryRare #RarityText
+{
+	color: veryRareTextColor;
+}
+
+.TreasureItemRarity_ExtremelyRare #RarityText
+{
+	color: extremelyRareTextColor;
+}
+
+.TreasureItemRarity_UltraRare #RarityText
+{
+	color: ultraRareChanceTextColor;
+}
+
+.TreasureItemRarity_CosmicallyRare #RarityText
+{
+	color: cosmicallyRareChanceTextColor;
+}
+
+#RecyclingShardReward Label
+{
+	margin-left: 4px;
+	font-size: 18px;
+	color: dotaPlusLightGold;
+	text-shadow: 0px 1px 4px black;
+}
+
+#RecyclingShardReward .DotaPlusCurrencyIcon
+{
+	margin: 0px;
+	margin-top: -2px;
+}
+
+#DotaPlusIcon
+{
+	margin-right: 6px;
+	transform: translateY( -2px );
+	vertical-align: center;
+	width: 18px;
+	height: 21px;
+	background-size: 18px 21px;
+}
+
+#RecyclingShardRewardIcon
+{
+	margin-right: 6px;
+	vertical-align: center;
+	width: 16px;
+	height: 17px;
+	background-size: 16px 17px;
+}
+
+#RecyclingAdditionalItemImage
+{
+	width: 60.75px;
+	height: 40.5px;
+	vertical-align: center;
+	visibility: collapse;
+}
+
+.HasAdditionalItemRecyclingReward #RecyclingAdditionalItemImage
+{
+	visibility: visible;
+}
+
+#TreasureBundlesReceivedTitle
+{
+	margin-top: 15px;
+	horizontal-align: center;
+	vertical-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#ProgressTick_5
+{
+	z-index: 110;
+}
+
+#ProgressTick_4
+{
+	z-index: 100;
+}
+
+#ProgressTick_3
+{
+	z-index: 99;
+}
+
+#ProgressTick_2
+{
+	z-index: 98;
+}
+
+#ProgressTick_1
+{
+	z-index: 97;
+}
+
+#ProgressTick_0
+{
+	z-index: 96;
+}
+
+#TreasureRecyclingBottom
+{
+	width: 100%;
+	flow-children: down;
+	min-width: 400px;
+}
+
+.HideRecycleItemList #TreasureRecyclingBottom
+{
+	visibility: collapse;
+}
+
+#TreasureBundlesReceivedList
+{
+	horizontal-align: left;
+	flow-children: down;
+	margin-left: 0px;
+	width: 100%;
+	overflow: scroll;
+}
+
+.RecyclingRequiresPlusSubscription #TreasureBundlesReceivedList
+{
+	visibility: collapse;
+}
+
+#TreasureBundlesReceivedList .TreasureOpeningResult
+{
+	width: 100%;
+	flow-children: right;
+	padding-right: 24px;
+	border-top: 1px solid rgba(255, 255, 255, 0.01);
+}
+
+#TreasureBundlesReceivedList .TreasureOpeningResult.TreasureItemRarity_Rare
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( rareTextColor&00 ), to( rareTextColor&05 ) );
+}
+
+#TreasureBundlesReceivedList .TreasureOpeningResult.TreasureItemRarity_VeryRare
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( veryRareTextColor&00 ), to( veryRareTextColor&05 ) );
+}
+
+#TreasureBundlesReceivedList .TreasureOpeningResult.TreasureItemRarity_ExtremelyRare
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( extremelyRareTextColor&00 ), to( extremelyRareTextColor&05 ) );
+}
+
+#TreasureBundlesReceivedList .TreasureOpeningResult.TreasureItemRarity_UltraRare
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( ultraRareChanceTextColor&00 ), to( ultraRareChanceTextColor&05 ) );
+}
+
+#TreasureBundlesReceivedList .TreasureOpeningResult.TreasureItemRarity_CosmicallyRare
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( cosmicallyRareChanceTextColor&00 ), to( cosmicallyRareChanceTextColor&05 ) );
+}
+
+.RecycleItemPreviewContainer
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 24px;
+}
+
+.RecycleItemPreviewContainer .ItemShadow
+{
+	width: 110%;
+	height: 16px;
+	vertical-align: bottom;
+	horizontal-align: center;
+	background-color: gradient( radial, 50% 50%, 0% 0%, 40% 40%, from( rgba(0, 0, 0, 0.8) ), to( rgba(0, 0, 0, 0) ) );
+	margin-bottom: 6px;
+	overflow: noclip;
+}
+
+.RecycleItemPreviewContainer #RecycleItemPreview
+{
+	width: 100%;
+	height: 100%;
+}
+
+.TreasureOpeningRecycleCountLabel
+{
+	vertical-align: center;
+	font-size: 22px;
+	color: LightestGrey;
+	padding: 4px 12px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	border: 1px solid rgba(255, 255, 255, 0.03);
+	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.TreasureOpeningRecycleSpacer
+{
+	width: 20px;
+	height: 1px;
+}
+
+.TreasureOpeningRecycleButton
+{
+	horizontal-align: right;
+	vertical-align: center;
+	visibility: collapse;
+}
+
+.CanBeRecycled .TreasureOpeningRecycleButton
+{
+	visibility: visible;
+}
+
+.TreasureOpeningRecycleButton Image
+{
+	margin-top: -4px;
+}
+
+.ButtonsContainer
+{
+	flow-children: right;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+.ButtonsContainer .RecycleButton
+{
+	visibility: collapse;
+}
+
+.IsRecyclingTreasure .ButtonsContainer #TreasureRecycleButton
+{
+	margin-right: 6px;
+	visibility: visible;
+}
+
+.IsRecyclingSticker .ButtonsContainer #StickerRecycleButton
+{
+	margin-right: 6px;
+	visibility: visible;
+}
+
+.TreasureOpeningResult #RecycleItemPreview:hover
+{
+	brightness: 1.5;
+}
+
+.TreasureOpeningResult #ItemDetails
+{
+	margin-left: 16px;
+	vertical-align: middle;
+	flow-children: down;
+	width: fill-parent-flow(1);
+}
+
+.TreasureOpeningResult #ItemDetails Label
+{
+	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.TreasureOpeningResult #UnitName
+{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: LightGrey;
+}
+
+.TreasureOpeningResult #ItemType
+{
+	color: LightGrey;
+	visibility: collapse;
+}
+
+.TreasureOpeningResult #ItemType .SetName
+{
+	font-family: titleFont;
+}
+
+.TreasureOpeningResult #ItemName
+{
+	color: LightestGrey;
+	font-family: titleFont;
+}
+
+.TreasureOpeningResult.ShowItemType #ItemType
+{
+	visibility: visible;
+}
+
+#ItemSetGiftButton
+{
+	vertical-align: center;
+	margin-left: 5px;
+	visibility: collapse;
+}
+
+.CanBeGifted #ItemSetGiftButton
+{
+	visibility: visible;
+}
+

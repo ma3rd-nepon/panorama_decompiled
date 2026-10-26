@@ -1,0 +1,18 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/events/dark_carnival/dark_carnival_shared.vcss" />
+		<include src="s2r://panorama/styles/ui_overworld_inventory_picker.vcss" />
+		<include src="s2r://panorama/styles/events/dark_carnival/ui_dark_carnival_inventory_picker.vcss" />
+	</styles>
+	<DOTAUIOverworldInventoryPicker>
+		<Panel class="TextureOverlay" />
+		<Label id="TitleLabel" class="LabelLarge ChooseTokensTitle" text="#DOTA_DarkCarnival_InventoryPicker_Title" hittest="false" />
+		<Panel class="CloseEncounterButton" onactivate="UIPopupButtonClicked()">
+			<Image class="CloseIcon" src="s2r://panorama/images/control_icons/24px/x_close.vsvg" scaling="stretch-to-fit-preserve-aspect" />
+		</Panel>
+		<Panel id="ItemList" />
+		<Label class="NoTokensLabel TitleExtraLarge LightestGrayText" text="#DOTA_DarkCarnival_NoTicketsAvailable" onactivate="DOTAUIOverworldInventoryItemSelected(0)" />
+	</DOTAUIOverworldInventoryPicker>
+</root>

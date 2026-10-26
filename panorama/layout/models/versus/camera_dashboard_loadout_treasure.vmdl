@@ -1,0 +1,160 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				children = [  ]
+				bone_cull_type = "None"
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "debut_camera"
+						filename = "panorama/layout/models/versus/camera_dashboard_loadout_treasure_debut_camera.dmx"
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "root"
+						ignore_rotation = false
+						parent_bone = "versus_camera_2022_root"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, -89.999992, 0.0 ]
+						weight = 1.0
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						name = "default"
+						remaps = [  ]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "transparent"
+						remaps = 
+						[
+							{
+								_class = "BaseMaterialRemap"
+								from = "materials/dev/red.vmat"
+								to = "models/items/razor/razor_arcana/debut/materials/razor_arcana_debut_transparent.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "versus_camera_2022_static"
+						source_filename = "panorama/layout/models/versus/camera_dashboard_loadout_treasure_versus_camera_2022_static.dmx"
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "versus_camera_2022_approaching"
+						source_filename = "panorama/layout/models/versus/camera_dashboard_loadout_treasure_versus_camera_2022_approaching.dmx"
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "camera_dashboard_loadout_treasure_spin"
+						source_filename = "panorama/layout/models/versus/camera_dashboard_loadout_treasure_camera_dashboard_loadout_treasure_spin.dmx"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "camera_dashboard_loadout_treasure_spin_subtle"
+						source_filename = "panorama/layout/models/versus/camera_dashboard_loadout_treasure_camera_dashboard_loadout_treasure_spin_subtle.dmx"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "camera_dashboard_loadout_treasure_spawn"
+						source_filename = "panorama/layout/models/versus/camera_dashboard_loadout_treasure_camera_dashboard_loadout_treasure_spawn.dmx"
+						fade_in_time = 2.0
+						fade_out_time = 0.2
+						looping = false
+						delta = true
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "camera_dashboard_loadout_treasure_spin_subtle_static"
+						source_filename = "panorama/layout/models/versus/camera_dashboard_loadout_treasure_camera_dashboard_loadout_treasure_spin_subtle_static.dmx"
+						fade_in_time = 1.0
+						fade_out_time = 1.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "camera_dashboard_loadout_treasure_spawn_tempdebug"
+						source_filename = "panorama/layout/models/versus/camera_dashboard_loadout_treasure_camera_dashboard_loadout_treasure_spawn_tempdebug.dmx"
+						fade_in_time = 2.0
+						fade_out_time = 0.2
+						looping = false
+						delta = true
+						worldSpace = false
+						hidden = false
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "versus_camera_2022_root"
+						origin = [ -0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 89.999992, 0.0 ]
+						do_not_discard = true
+					},
+				]
+			},
+		]
+	}
+}

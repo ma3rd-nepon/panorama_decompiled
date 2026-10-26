@@ -1,0 +1,17 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/dashboard_page_shared.vcss" />
+		<include src="s2r://panorama/styles/dashboard_page_post_game.vcss" />
+	</styles>
+	<DOTAPostGameSupportItemsRow class="StatRowHeight">
+		<Panel class="PlayerRowContainer">
+			<Panel id="SupportItemContainer" />
+			<Label id="SupportItemsValue" class="SupportItemsValue" text="{d:total_spend}" />
+			<Label id="SupportItemsCampsStacked" class="SupportItemsCampsStacked" text="{d:camps_stacked}" />
+			<Label id="SupportItemsDewards" class="SupportItemsDewards" text="{d:deward_count}" />
+			<Label id="SupportItemsWisdomShrines" class="SupportItemsWisdomShrines" text="{d:wisdom_shrines_count}" />
+		</Panel>
+	</DOTAPostGameSupportItemsRow>
+</root>

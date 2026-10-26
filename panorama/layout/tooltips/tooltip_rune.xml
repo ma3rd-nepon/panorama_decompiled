@@ -1,0 +1,13 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/tooltips/tooltip_rune.vcss" />
+	</styles>
+	<DOTATooltipRune class="RuneContents">
+		<Panel id="RuneHeader">
+			<Label id="RuneName" class="TitleFont" text="#DOTA_RuneTooltip_Name" html="true" />
+		</Panel>
+		<Label id="RuneDescription" text="#DOTA_RuneTooltip_Description" html="true" />
+	</DOTATooltipRune>
+</root>

@@ -1,0 +1,37 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/gametime_notched_rangeslider.vcss" />
+	</styles>
+	<snippets>
+		<snippet name="ItemPurchaseGroup">
+			<Panel class="ItemPurchaseGroup">
+				<Panel class="MultipleItemsContainer">
+					<Panel class="MultipleItem3" />
+					<Panel class="MultipleItem2" />
+					<Panel class="MultipleItem1" />
+				</Panel>
+				<DOTAItemImage id="ItemImage" class="ItemPurchaseGroupImage" scaling="stretch-to-fit-x-preserve-aspect" />
+				<Image class="CaretDownIcon" src="s2r://panorama/images/control_icons/24px/caret_down.vsvg" />
+			</Panel>
+		</snippet>
+		<snippet name="KillsGroup">
+			<Panel class="KillsGroup">
+				<Image class="SkullIcon" src="s2r://panorama/images/control_icons/24px/skull.vsvg" />
+				<Label class="KillCountLabel" text="x{d:kill_count}" />
+			</Panel>
+		</snippet>
+	</snippets>
+	<DOTAGameTimeNotchedRangeSlider>
+		<Panel class="RangedSliderBackgroundContainer">
+			<Panel class="RangedSliderBackgroundShadow" />
+			<Panel class="RangedSliderBackground" />
+			<Panel class="RangedSliderBackgroundBorder" />
+		</Panel>
+		<Panel id="OverlayPanel" />
+		<RangeSlider id="NotchedRangeSlider" class="HorizontalSlider RangeSlider" direction="horizontal" />
+		<Label class="TimeRangeLabel StartTime" text="{s:time_start_minutes}:{s:time_start_seconds}" hittest="false" />
+		<Label class="TimeRangeLabel EndTime" text="{s:time_end_minutes}:{s:time_end_seconds}" hittest="false" />
+	</DOTAGameTimeNotchedRangeSlider>
+</root>

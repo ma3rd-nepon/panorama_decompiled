@@ -1,0 +1,25 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/battle_pass/current_battle_pass.vcss" />
+		<include src="s2r://panorama/styles/battle_pass/coach_rating.vcss" />
+	</styles>
+	<snippets>
+		<snippet name="RatingProgress">
+			<Panel class="RatingProgress">
+				<CircularProgressBar id="RatingProgressBar" />
+				<Label class="RatingBadgeValue" text="{d:coach_rating}" />
+			</Panel>
+		</snippet>
+		<snippet name="RatingBadge">
+			<Panel class="RatingBadge">
+				<Label class="RatingBadgeValue" text="{d:coach_rating}" />
+			</Panel>
+		</snippet>
+		<snippet name="RatingIcon">
+			<Panel class="RatingIcon" />
+		</snippet>
+	</snippets>
+	<Panel />
+</root>

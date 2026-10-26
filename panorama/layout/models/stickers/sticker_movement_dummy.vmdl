@@ -1,0 +1,278 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				children = [  ]
+				bone_cull_type = "None"
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "versus_dummy"
+						filename = "panorama/layout/models/stickers/sticker_movement_dummy_versus_dummy.dmx"
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "attach_root"
+						ignore_rotation = false
+						parent_bone = "root"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ -89.999992, -89.999992, 0.0 ]
+						weight = 1.0
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimBindPose"
+						name = "bindpose"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "Folder"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_offset"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_offset.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_offset_b"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_offset_b.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_offset_c"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_offset_c.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_forward"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_forward.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+						]
+						name = "bouncy"
+					},
+					{
+						_class = "Folder"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_a"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_a.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_b"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_b.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_c"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_c.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+						]
+						name = "ease_in"
+					},
+					{
+						_class = "Folder"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_a_offset_1"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_a_offset_1.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_a_offset_2"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_a_offset_2.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_a_offset_3"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_a_offset_3.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_b_offset_1"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_b_offset_1.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_b_offset_2"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_b_offset_2.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_b_offset_3"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_b_offset_3.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_c_offset_1"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_c_offset_1.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_c_offset_2"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_c_offset_2.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sticker_dummy_side_movement_slowin_c_offset_3"
+								source_filename = "panorama/layout/models/stickers/sticker_movement_dummy_sticker_dummy_side_movement_slowin_c_offset_3.dmx"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+							},
+						]
+						name = "offsets"
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "root"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 90.0, 90.0 ]
+						do_not_discard = true
+					},
+				]
+			},
+		]
+	}
+}

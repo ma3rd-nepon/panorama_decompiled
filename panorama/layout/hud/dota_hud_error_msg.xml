@@ -1,0 +1,11 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/hudstyles.vcss" />
+		<include src="s2r://panorama/styles/hud/dota_hud_error_msg.vcss" />
+	</styles>
+	<DOTAErrorMsg hittest="false" hittestchildren="false">
+		<Label id="ErrorMsg" text="{s:error_msg}" />
+	</DOTAErrorMsg>
+</root>

@@ -1,0 +1,147 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				children = [  ]
+				bone_cull_type = "None"
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "debut_camera"
+						filename = "panorama/layout/models/mvp/mvp_camera_debut_camera.dmx"
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "root"
+						ignore_rotation = false
+						parent_bone = "debut_camera"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "mvp_camera_anim"
+						source_filename = "panorama/layout/models/mvp/mvp_camera_mvp_camera_anim.dmx"
+						fade_in_time = 0.5
+						fade_out_time = 0.5
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "mvp_camera_anim_stationary"
+						source_filename = "panorama/layout/models/mvp/mvp_camera_mvp_camera_anim_stationary.dmx"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "mvp_camera_close_03_anim"
+						source_filename = "panorama/layout/models/mvp/mvp_camera_mvp_camera_close_03_anim.dmx"
+						fade_in_time = 0.5
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "mvp_camera_close_02_anim"
+						source_filename = "panorama/layout/models/mvp/mvp_camera_mvp_camera_close_02_anim.dmx"
+						fade_in_time = 0.5
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "mvp_camera_close_01_anim"
+						source_filename = "panorama/layout/models/mvp/mvp_camera_mvp_camera_close_01_anim.dmx"
+						fade_in_time = 0.5
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "mvp_camera_close_04_anim"
+						source_filename = "panorama/layout/models/mvp/mvp_camera_mvp_camera_close_04_anim.dmx"
+						fade_in_time = 0.5
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					{
+						_class = "AnimFile"
+						name = "mvp_camera_close_05_anim"
+						source_filename = "panorama/layout/models/mvp/mvp_camera_mvp_camera_close_05_anim.dmx"
+						fade_in_time = 0.5
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "debut_camera"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 90.0, 90.0 ]
+						do_not_discard = true
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "ppyramid1"
+								origin = [ 214.294495, -0.000002, -12.145164 ]
+								angles = [ 44.999981, 90.000008, 0.000017 ]
+								do_not_discard = true
+							},
+						]
+					},
+				]
+			},
+		]
+	}
+}

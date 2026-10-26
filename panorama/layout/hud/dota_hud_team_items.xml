@@ -1,0 +1,21 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/hud/dota_hud_team_items.vcss" />
+	</styles>
+	<DOTAHUDTeamItems>
+		<Panel id="CommonItemTitleContainer">
+			<Label id="TeamLabel" class="CommonItemsTitle" text="#dota_item_build_team_items" onmouseover="DOTAShowTeammateItemExplainer( 1 );" onmouseout="DOTAHideTeammateItemExplainer();" />
+		</Panel>
+		<Panel id="Contents">
+			<Panel id="EmptyLabelContainer" onmouseover="DOTAShowTeammateItemExplainer( 2 );" onmouseout="DOTAHideTeammateItemExplainer();">
+				<Label id="EmptyLabel" text="#dota_item_build_team_items_empty" html="true" />
+			</Panel>
+			<Panel id="ItemColumn">
+				<Panel id="TeamItemList" />
+				<Panel id="VerticalDivider" hittest="false" hittestchildren="false" />
+			</Panel>
+		</Panel>
+	</DOTAHUDTeamItems>
+</root>

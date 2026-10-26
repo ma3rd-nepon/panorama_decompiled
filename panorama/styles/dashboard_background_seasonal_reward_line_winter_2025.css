@@ -1,0 +1,186 @@
+/* Prettified by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io */
+
+.SeasonalRewardLineBackground
+{
+	width: 100%;
+	height: 100%;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #12292e ), to( #060608 ) );
+}
+
+.BackgroundImage
+{
+	background-image: url("s2r://panorama/images/events/seasonal/backgrounds/winter_background_png.vtex");
+}
+
+.FloorBackgroundImage
+{
+	background-image: url("s2r://panorama/images/events/seasonal/backgrounds/floor_winter_png.vtex");
+}
+
+#SeasonTitle
+{
+	color: gradient( linear, 0% 0%, 0% 100%, from( #ffffff ), to( #dff9ff ) );
+}
+
+.IntroText
+{
+	color: #d4f3ff;
+}
+
+.BackgroundImageGlow
+{
+	wash-color: #b5e9ff;
+	opacity: 0.3;
+}
+
+.SmokeFXBottom
+{
+	wash-color: rgb(199, 229, 255);
+	contrast: 1.5;
+	brightness: 1.2;
+}
+
+.EventFramingContainer
+{
+	wash-color: rgb(154, 188, 255);
+}
+
+.TimeLeftLabels
+{
+	color: rgba(169, 197, 205, 0.3);
+}
+
+.RewardCategoryTitles
+{
+	color: gradient( linear, 0% 30%, 0% 140%, from( #cfe2f4 ), to( #4b5261 ) );
+}
+
+.RewardDetailsHeroName
+{
+	color: #e1dfc788;
+}
+
+.ParticleWindowBG
+{
+	wash-color: rgb(194, 232, 255);
+}
+
+.ParticleBGLanternFX
+{
+	width: 300px;
+	height: 300px;
+	horizontal-align: center;
+	vertical-align: center;
+	margin-right: 393px;
+	margin-bottom: 200px;
+	-s2-mix-blend-mode: screen;
+}
+
+.AspectRatio16x10 .ParticleBGLanternFX
+{
+	margin-right: 350px;
+	margin-bottom: 180px;
+}
+
+.AspectRatio21x9 .ParticleBGLanternFX
+{
+	margin-right: 490px;
+	margin-bottom: 240px;
+	ui-scale: 125%;
+}
+
+.TopRightGodRays
+{
+	hue-rotation: -30deg;
+	opacity: 0.3;
+	saturation: 0.7;
+}
+
+#ParticleRewardsContainer,.OtherRewardsContainer
+{
+	border-color: rgba(192, 225, 255, 0.05);
+}
+
+.BackstoryButton
+{
+	wash-color: rgba(192, 217, 255, 0.5);
+}
+
+#CenterRewardDetailsContainer
+{
+	z-index: 1;
+}
+
+#CenterRewardDetailsContainer .HeroRewardHitBox
+{
+	opacity: 0;
+}
+
+.Tier1 #CenterRewardDetailsContainer .HeroRewardHitBox.Tier1
+{
+	opacity: 1;
+}
+
+.Tier2 #CenterRewardDetailsContainer .HeroRewardHitBox.Tier2
+{
+	opacity: 1;
+}
+
+#CenterRewardDetailsContainer .HeroShadow
+{
+	transform: translateY( 15px ) scaleX( 1.4 );
+}
+
+#LeftRewardDetailsContainer .HeroRewardHitBox
+{
+	width: 80%;
+}
+
+#RightRewardDetailsContainer .HeroRewardHitBox
+{
+	height: 80%;
+}
+
+#Reward_LeftHero
+{
+	transform: translateX( 20px ) translateY( 40px );
+	width: 780px;
+}
+
+#Reward_Ward
+{
+	ignore-parent-flow: true;
+	width: 100%;
+	height: 100%;
+	transform: translateX( -140px ) translateY( 50px );
+}
+
+.AspectRatio16x10 #Reward_Ward
+{
+	transform: translateX( -120px ) translateY( 50px );
+}
+
+#Reward_CenterHero
+{
+	width: 800px;
+	transform: translateX( 10px ) translateY( 30px );
+}
+
+#Reward_RightHero
+{
+	transform: translateX( 20px ) translateY( -40px );
+	width: 680px;
+	opacity-brush: gradient( linear, 0% 70%, 0% 100%, from( #FFFFFF ), color-stop( 0.5, #ffffffc8 ), to( #ffffff35 ) );
+}
+
+.EventHistoryNavigation
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( #00000000 ), color-stop( 0.2, #203b4ccc ), color-stop( 0.8, #203b4ccc ), to( #00000000 ) );
+}
+
+#OutroTest
+{
+	horizontal-align: center;
+	margin-top: 80px;
+}
+

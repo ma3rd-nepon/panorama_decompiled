@@ -1,0 +1,12 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/popups/popup_matchmaking_region_ping.vcss" />
+	</styles>
+	<PopupMatchmakingRegionPing>
+		<Panel id="PingImage" />
+		<DOTAAvatarImage id="FriendAvatarImage" />
+		<Label id="RegionPing" text="#dota_matchmaking_region_ping_time" />
+	</PopupMatchmakingRegionPing>
+</root>

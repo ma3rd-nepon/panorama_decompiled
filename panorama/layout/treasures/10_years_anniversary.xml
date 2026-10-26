@@ -1,0 +1,10 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+	</styles>
+	<Panel class="RootPanel">
+		<DOTA10thAnniversaryTreasureDetails id="TreasureOverviewContainer" />
+		<DOTA10thAnniversaryTreasureDetails id="ItemDetailsContainer" />
+	</Panel>
+</root>

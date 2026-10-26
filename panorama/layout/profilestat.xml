@@ -1,0 +1,12 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/profilestat.vcss" />
+	</styles>
+	<ProfileStat>
+		<Label id="LocalPlayerStat" />
+		<Label id="ProfileStat" />
+		<Label id="StatName" />
+	</ProfileStat>
+</root>

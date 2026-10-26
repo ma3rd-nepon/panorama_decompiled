@@ -1,0 +1,18 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/active_friends.vcss" />
+		<include src="s2r://panorama/styles/active_friend_lobby.vcss" />
+	</styles>
+	<DOTAActiveFriendLobby>
+		<Panel id="AvatarRow" />
+		<Panel class="LobbyDetails" hittest="false">
+			<Label id="LobbyModeLabel" html="true" />
+			<Label id="LobbyNumbersLabel" hittest="false" text="#DOTA_Friend_Lobby_Players" html="true" />
+		</Panel>
+		<Button id="JoinButton">
+			<Label text="#DOTA_Friend_Lobby_Join_Button" />
+		</Button>
+	</DOTAActiveFriendLobby>
+</root>

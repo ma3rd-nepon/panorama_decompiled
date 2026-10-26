@@ -1,0 +1,37 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/events/dark_carnival/dark_carnival_shared.vcss" />
+		<include src="s2r://panorama/styles/tooltips/tooltip_profile_card.vcss" />
+	</styles>
+	<Panel class="TooltipProfileCard">
+		<DOTAMiniShowcase id="MiniShowcase" />
+		<Panel class="EventLevelContainer">
+			<Panel class="EventLevelBackground">
+				<Panel class="TopDash" />
+				<Panel class="EventLevelBackgroundTexture" />
+				<Image class="Screw Top Left" src="s2r://panorama/images/events/dark_carnival/textures/screw_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
+				<Image class="Screw Top Right" src="s2r://panorama/images/events/dark_carnival/textures/screw_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
+				<Image class="Screw Bottom Left" src="s2r://panorama/images/events/dark_carnival/textures/screw_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
+				<Image class="Screw Bottom Right" src="s2r://panorama/images/events/dark_carnival/textures/screw_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
+			</Panel>
+			<Image class="DarkCarnivalEmblem" src="s2r://panorama/images/events/dark_carnival/logos/dark_canival_moon_emblem_png.vtex" scaling="stretch-to-fit-preserve-aspect" />
+			<Panel class="EventLevelInfo">
+				<Label class="EventTitle LabelSmall" text="#DOTA_EventName_DarkCarnival" />
+				<Label class="EventLevelLabel" text="#DOTA_DarkCarnivalProfileCard_Act1" />
+			</Panel>
+			<DOTAEventLevelShield id="EventLevelShield" />
+		</Panel>
+		<Panel id="PartySection">
+			<Panel class="Bans">
+				<Label class="HasBansLabel" text="#DOTA_ProfileCard_Bans_BansLabel" />
+				<Label class="NoBansLabel" text="#DOTA_ProfileCard_Bans_NoBansLabel" />
+				<DOTAHeroImage id="BanHero1" class="BannedHero" heroimagestyle="icon" />
+				<DOTAHeroImage id="BanHero2" class="BannedHero" heroimagestyle="icon" />
+				<DOTAHeroImage id="BanHero3" class="BannedHero" heroimagestyle="icon" />
+				<DOTAHeroImage id="BanHero4" class="BannedHero" heroimagestyle="icon" />
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

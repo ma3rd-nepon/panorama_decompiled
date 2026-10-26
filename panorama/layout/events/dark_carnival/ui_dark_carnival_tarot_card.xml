@@ -1,0 +1,20 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/events/dark_carnival/dark_carnival_shared.vcss" />
+		<include src="s2r://panorama/styles/events/dark_carnival/ui_dark_carnival_tarot_card.vcss" />
+	</styles>
+	<DOTADarkCarnivalTarotCard>
+		<Panel class="Glow" />
+		<Panel class="Cardstock" />
+		<Panel class="Stroke" />
+		<Panel class="Fill" />
+		<Label class="CardName" text="{s:name}" />
+		<Panel class="RevealBorder">
+			<Panel class="BorderShadow" />
+			<Panel class="BorderBright" />
+			<Panel class="BorderShadow" />
+		</Panel>
+	</DOTADarkCarnivalTarotCard>
+</root>

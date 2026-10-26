@@ -1,0 +1,16 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/dota_hud_disconnect.vcss" />
+	</styles>
+	<DOTAHUDDisconnect hittest="false" hittestchildren="false">
+		<Label id="TimeoutCountLabel" text="#DisconnectTimeoutLabel" />
+		<Panel id="DisconnectIconState" class="LeftRightFlow">
+			<Panel id="DisconnectIconLeft" class="DisconnectIcons" />
+			<Panel id="DisconnectIconX" class="DisconnectIcons" />
+			<Panel id="DisconnectIconRight" class="DisconnectIcons" />
+		</Panel>
+		<Label id="TimeoutCount" text="#DisconnectTimeout" />
+	</DOTAHUDDisconnect>
+</root>

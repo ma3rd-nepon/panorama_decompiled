@@ -1,0 +1,12 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/hud/tooltip_hero_all_attributes.vcss" />
+	</styles>
+	<DOTATooltipHeroAllAttributes>
+		<DOTAHudHeroAttribute id="StrAttribute" />
+		<DOTAHudHeroAttribute id="AgiAttribute" />
+		<DOTAHudHeroAttribute id="IntAttribute" />
+	</DOTATooltipHeroAllAttributes>
+</root>

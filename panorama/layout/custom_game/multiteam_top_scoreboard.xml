@@ -1,0 +1,21 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/custom_game/multiteam_top_scoreboard.vcss" />
+		<include src="s2r://panorama/styles/custom_game/shared_scoreboard_styles.vcss" />
+	</styles>
+	<scripts>
+		<include src="s2r://panorama/scripts/custom_game/shared_scoreboard_updater.vjs" />
+		<include src="s2r://panorama/scripts/custom_game/multiteam_top_scoreboard.vjs" />
+	</scripts>
+	<Panel hittest="false" class="CustomHudRoot">
+		<Panel hittest="false" id="TopBarScoreboard">
+			<Panel hittest="false" id="ScoreboardContainer">
+				<Panel hittest="false" id="LeftInjectXMLFile" />
+				<Panel hittest="false" id="MultiteamScoreboard" />
+				<Panel hittest="false" id="RightInjectXMLFile" />
+			</Panel>
+		</Panel>
+	</Panel>
+</root>

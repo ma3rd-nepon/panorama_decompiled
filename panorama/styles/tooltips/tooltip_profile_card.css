@@ -1,0 +1,182 @@
+/* Prettified by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io */
+
+.TooltipProfileCard
+{
+	flow-children: down;
+}
+
+.ShowMiniShowcase #ProfileCard
+{
+	visibility: collapse;
+}
+
+#MiniShowcase
+{
+	visibility: collapse;
+}
+
+.ShowMiniShowcase #MiniShowcase
+{
+	visibility: visible;
+}
+
+.EventLevelContainer
+{
+	width: 100%;
+	flow-children: right;
+	border-top: 1px solid black;
+	visibility: collapse;
+}
+
+.EventLevelContainer .EventLevelBackground
+{
+	width: 100%;
+	height: 100%;
+	ignore-parent-flow: true;
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( midnightLight ), to( midnightDark ) );
+}
+
+.EventLevelContainer .EventLevelBackground .TopDash
+{
+	width: 100%;
+	height: 1px;
+	background-color: white;
+	opacity: 0.01;
+}
+
+.EventLevelContainer .EventLevelBackground .EventLevelBackgroundTexture
+{
+	width: 100%;
+	height: 100%;
+	background-image: url("s2r://panorama/images/events/dark_carnival/textures/texture_woodgrain_png.vtex");
+	background-size: cover;
+	background-position: center;
+	-s2-mix-blend-mode: overlay;
+	brightness: 1.5;
+	opacity: 0.6;
+}
+
+.EventLevelContainer .EventLevelBackground .Screw
+{
+	margin: 3px;
+	width: 8px;
+	wash-color: midnightLight&cc;
+}
+
+.EventLevelContainer .EventLevelBackground .Screw.Bottom
+{
+	vertical-align: bottom;
+}
+
+.EventLevelContainer .EventLevelBackground .Screw.Right
+{
+	horizontal-align: right;
+}
+
+.ShowEventLevel .EventLevelContainer
+{
+	visibility: visible;
+}
+
+.EventLevelContainer #EventLevelShield
+{
+	ui-scale: 90%;
+	vertical-align: center;
+	margin-right: 2px;
+}
+
+.EventLevelContainer .DarkCarnivalEmblem
+{
+	height: 40px;
+	vertical-align: center;
+	margin-left: 6px;
+	margin-bottom: -1px;
+}
+
+.EventLevelContainer .EventLevelInfo
+{
+	width: fill-parent-flow(1);
+	vertical-align: center;
+	flow-children: down;
+	margin-left: 6px;
+}
+
+.EventLevelContainer .EventLevelInfo .EventTitle
+{
+	color: gradient( linear, 0% 0%, 100% 0%, from( goldLight ), to( goldDark ) );
+	text-shadow: 0px 2px 12px black;
+	color: textLighter;
+	margin-bottom: -3px;
+}
+
+.EventLevelContainer .EventLevelInfo .EventLevelLabel
+{
+	letter-spacing: 1px;
+	font-size: 17px;
+	text-transform: uppercase;
+	color: gradient( linear, 0% 0%, 100% 0%, from( goldLight ), to( goldDark ) );
+	text-shadow: 0px 2px 12px black;
+}
+
+#PartySection
+{
+	background-color: #000000FF;
+	width: 100%;
+	padding: 4px;
+	visibility: collapse;
+}
+
+.ShowPartySection #PartySection
+{
+	visibility: visible;
+}
+
+#PartySection .Bans
+{
+	horizontal-align: center;
+	flow-children: right;
+	margin-bottom: 2px;
+}
+
+#PartySection Label
+{
+	vertical-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #556;
+	letter-spacing: 1px;
+}
+
+#PartySection .BannedHero.Empty
+{
+	visibility: collapse;
+}
+
+#PartySection DOTAHeroImage
+{
+	width: 32px;
+	height: 32px;
+	margin: 4px;
+}
+
+#PartySection .HasBansLabel
+{
+	visibility: visible;
+	margin-right: 4px;
+}
+
+#PartySection .NoBansLabel
+{
+	visibility: collapse;
+}
+
+.NoBans .Bans .HasBansLabel
+{
+	visibility: collapse;
+}
+
+.NoBans .Bans .NoBansLabel
+{
+	visibility: visible;
+}
+

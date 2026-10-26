@@ -1,0 +1,11 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/dashboard_page_shared.vcss" />
+		<include src="s2r://panorama/styles/candy_image.vcss" />
+	</styles>
+	<DOTACandyImage>
+		<Image id="CandyImage" scaling="stretch-to-fit-preserve-aspect" />
+	</DOTACandyImage>
+</root>

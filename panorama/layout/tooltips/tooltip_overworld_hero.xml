@@ -1,0 +1,14 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/events/dark_carnival/dark_carnival_shared.vcss" />
+		<include src="s2r://panorama/styles/tooltips/tooltip_overworld_hero.vcss" />
+	</styles>
+	<DOTATooltipOverworldHero>
+		<Panel class="InnerContents">
+			<Label id="Heading" text="#DOTA_Crownfall_TooltipOverworldHero_Heading_1" html="true" />
+			<Panel id="RewardList" />
+		</Panel>
+	</DOTATooltipOverworldHero>
+</root>

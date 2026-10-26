@@ -1,0 +1,20 @@
+/* Prettified by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io */
+
+DOTAPopupUITreasureRecycling.PopupPanel
+{
+	width: 800px;
+	min-height: 660px;
+	max-height: 920px;
+	vertical-align: center;
+	horizontal-align: center;
+	flow-children: down;
+	padding: 0px;
+}
+
+#CloseButton
+{
+	ignore-parent-flow: true;
+	margin: 12px;
+	horizontal-align: right;
+}
+

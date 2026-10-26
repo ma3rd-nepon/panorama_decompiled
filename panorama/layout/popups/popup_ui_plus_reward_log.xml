@@ -1,0 +1,33 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/gamestyles.vcss" />
+		<include src="s2r://panorama/styles/popups/popups_shared.vcss" />
+		<include src="s2r://panorama/styles/popups/popup_ui_plus_reward_log.vcss" />
+		<include src="s2r://panorama/styles/popups/popup_ui_plus_reward_log_entry.vcss" />
+	</styles>
+	<DOTAPopupUIPlusRewardLog class="PopupPanel Hidden" popupbackground="dim">
+		<Panel id="Title">
+			<Panel id="TitleBackground">
+				<Button id="CancelButton" class="CloseButton" onactivate="UIPopupButtonClicked()" />
+				<Panel class="TitleShardLogo" />
+				<Label class="TitleLabel" text="#DOTA_Plus_RewardLog_Title" />
+				<Panel class="TitleSubLabel LeftRightFlow">
+					<Panel class="DotaPlusCurrencyIcon TotalPlusCurrencyIcon" />
+					<Label class="TotalShards MonoNumbersFont" text="#DOTA_Plus_RewardLog_TotalShards" />
+				</Panel>
+				<Panel class="TitleSection" />
+			</Panel>
+		</Panel>
+		<Panel class="TitleBar">
+			<Label class="DateColumn" text="#DOTA_Plus_RewardLog_TitleBar_Date" />
+			<Label class="DescriptionColumn" text="#DOTA_Plus_RewardLog_TitleBar_Description" />
+			<Panel class="LeftRightFlow">
+				<Panel class="DotaPlusCurrencyIcon TotalPlusCurrencyIcon" />
+				<Label class="ShardsColumn" text="#DOTA_Plus_RewardLog_TitleBar_Shards" />
+			</Panel>
+			<Label class="TotalShardsColumn" text="#DOTA_Plus_RewardLog_TitleBar_Total" html="true" />
+		</Panel>
+		<Panel id="Body" />
+	</DOTAPopupUIPlusRewardLog>
+</root>

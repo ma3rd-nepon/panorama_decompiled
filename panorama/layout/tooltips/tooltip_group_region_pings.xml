@@ -1,0 +1,10 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/tooltips/tooltip_group_region_pings.vcss" />
+	</styles>
+	<DOTATooltipGroupRegionPings class="TooltipGroupRegionPingsContents">
+		<Panel id="MembersContainer" />
+	</DOTATooltipGroupRegionPings>
+</root>

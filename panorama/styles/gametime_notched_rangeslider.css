@@ -1,0 +1,326 @@
+/* Prettified by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io */
+
+DOTAGameTimeNotchedRangeSlider
+{
+	height: 128px;
+	width: 100%;
+}
+
+.RangedSliderBackgroundContainer
+{
+	width: 100%;
+	height: 68px;
+	vertical-align: bottom;
+	transition-property: height;
+	transition-duration: 0.25s;
+	transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
+}
+
+.RangedSliderBackgroundContainer .RangedSliderBackgroundShadow
+{
+	width: 100%;
+	height: 8px;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #00000000 ), to( #000000 ) );
+	opacity-brush: gradient( linear, 0% 0%, 100% 0%, from( #ffffff00 ), color-stop( 0.02, #ffffff ), color-stop( 0.98, #ffffff ), to( #ffffff00 ) );
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 0.25s;
+}
+
+.RangedSliderBackgroundContainer .RangedSliderBackground
+{
+	width: 100%;
+	height: 100%;
+	background-color: gradient( radial, 50% 0%, 0% 0%, 50% 100%, from( #151A1E99 ), to( #151a1e99 ) );
+	margin-top: 8px;
+	transition-property: background-color;
+	transition-duration: 0.25s;
+}
+
+.RangedSliderBackgroundContainer .RangedSliderBackgroundBorder
+{
+	width: 100%;
+	height: 1px;
+	background-color: rgba(207, 235, 255, 1);
+	opacity-brush: gradient( linear, 0% 0%, 100% 0%, from( #ffffff00 ), color-stop( 0.02, #ffffff ), color-stop( 0.98, #ffffff ), to( #ffffff00 ) );
+	margin-top: 8px;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 0.25s;
+}
+
+.ShowOverlay .RangedSliderBackgroundContainer
+{
+	height: 100%;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.2s;
+}
+
+.ShowOverlay .RangedSliderBackgroundContainer .RangedSliderBackgroundShadow
+{
+	opacity: 0.3;
+	transition-delay: 0.2s;
+}
+
+.ShowOverlay .RangedSliderBackgroundContainer .RangedSliderBackground
+{
+	background-color: gradient( radial, 50% 0%, 0% 0%, 50% 100%, from( #232a3199 ), to( #151a1e99 ) );
+	transition-delay: 0.2s;
+}
+
+.ShowOverlay .RangedSliderBackgroundContainer .RangedSliderBackgroundBorder
+{
+	opacity: 0.01;
+	transition-delay: 0.2s;
+}
+
+.SliderContainer
+{
+	width: fill-parent-flow( 1.0 );
+	overflow: noclip;
+}
+
+#NotchedRangeSlider
+{
+	width: 100%;
+	vertical-align: bottom;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 12px;
+}
+
+.TimeRangeLabel
+{
+	vertical-align: bottom;
+	width: 80px;
+	margin-bottom: 14px;
+	margin-left: 22px;
+	font-family: monospaceNumbersFont;
+}
+
+.TimeRangeLabel.EndTime
+{
+	text-align: right;
+	horizontal-align: right;
+	margin-right: 22px;
+}
+
+#OverlayPanel
+{
+	width: 100%;
+	vertical-align: bottom;
+	height: 74px;
+	margin-bottom: 38px;
+	padding-left: 80px;
+	margin-right: 80px;
+	opacity: 0;
+	transform: translateY( 4px );
+	transition-property: opacity, transform;
+	transition-duration: 0.25s;
+	transition-delay: 0.2s;
+	transition-timing-function: cubic-bezier(0, 0.9, 0, 0.9);
+}
+
+.ShowOverlay #OverlayPanel
+{
+	opacity: 1;
+	transform: none;
+	transition-duration: 0.1s;
+	transition-delay: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.ItemPurchaseGroup
+{
+	flow-children: down;
+	margin-left: -12px;
+	width: 38px;
+	height: 44px;
+	vertical-align: bottom;
+}
+
+.ItemPurchaseGroup .CaretDownIcon
+{
+	horizontal-align: center;
+	width: 14px;
+	margin-top: -6px;
+	opacity-brush: gradient( linear, 0% 20%, 0% 80%, from( #545a60 ), to( #242a31 ) );
+	img-shadow: 0px 2px 8px -1px black;
+}
+
+.ItemPurchaseGroup .ItemPurchaseGroupImage
+{
+	width: 38px;
+	height: 28px;
+	border-radius: 2px;
+	border: 1px solid white;
+	border-brush: gradient( linear, 0% 0%, 0% 100%, from( #a8afb7 ), to( #60666c ) );
+	horizontal-align: center;
+	box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.6);
+	z-index: 1;
+}
+
+.ItemPurchaseGroup .MultipleItemsContainer
+{
+	width: 100%;
+	flow-children: down;
+}
+
+.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem1,.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem2,.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem3
+{
+	width: 100%;
+	height: 0.5px;
+	background-color: #7e8996;
+	border-radius: 2px 2px 0px 0px;
+	opacity: 0;
+}
+
+.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem1
+{
+	margin: 0px 2px 1px;
+}
+
+.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem2
+{
+	margin: 0px 3.5px 1px;
+}
+
+.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem3
+{
+	margin: 0px 5px 1px;
+}
+
+.ItemCount2.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem1
+{
+	opacity: 1;
+}
+
+.ItemCount3.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem1
+{
+	opacity: 1;
+}
+
+.ItemCount3.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem2
+{
+	opacity: 0.6;
+}
+
+.ItemCount4.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem1
+{
+	opacity: 1;
+}
+
+.ItemCount4.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem2
+{
+	opacity: 0.6;
+}
+
+.ItemCount4.ItemPurchaseGroup .MultipleItemsContainer .MultipleItem3
+{
+	opacity: 0.4;
+}
+
+.ItemPurchaseGroupImage.ItemQuality0
+{
+	visibility: visible;
+}
+
+.ItemPurchaseGroupImage.ItemQuality1
+{
+	visibility: visible;
+}
+
+.ItemName_item_aegis .ItemPurchaseGroupImage
+{
+	animation-name: AegisPulse;
+	animation-duration: 2s;
+	border-width: 4px;
+	box-shadow: inset 0px -2px 3px 0px #000000;
+}
+
+.ItemName_item_rapier .ItemPurchaseGroupImage
+{
+	animation-name: RapierPulse;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1.0s;
+	box-shadow: 0px 0px 6px #ffffff;
+}
+
+@keyframes 'AegisPulse'
+{
+	0%
+	{
+		brightness: 1;
+	}
+	
+	50%
+	{
+		brightness: 2;
+	}
+	
+	100%
+	{
+		brightness: 1;
+	}
+	
+}
+
+@keyframes 'RapierPulse'
+{
+	0%
+	{
+		brightness: 1;
+		box-shadow: 0px 0px 4px #fFBE3B66;
+	}
+	
+	50%
+	{
+		brightness: 2;
+		box-shadow: 0px 0px 8px #fFBE3Bff;
+	}
+	
+	100%
+	{
+		brightness: 1;
+		box-shadow: 0px 0px 4px #fFBE3B66;
+	}
+	
+}
+
+.ItemPurchaseGroupImage.ItemQuality0
+{
+	visibility: visible;
+}
+
+.ItemPurchaseGroupImage.ItemQuality1
+{
+	visibility: visible;
+}
+
+.KillsGroup
+{
+	flow-children: down;
+	width: 20px;
+	transform: translateX( -10px );
+	margin-bottom: 12px;
+}
+
+.KillsGroup .SkullIcon
+{
+	height: 14px;
+	width: 14px;
+	wash-color: LightGrey;
+	horizontal-align: center;
+	margin-left: 1px;
+}
+
+.KillsGroup .KillCountLabel
+{
+	font-size: 14px;
+	color: LightGrey;
+	horizontal-align: center;
+	text-align: center;
+	font-family: monospaceNumbersFont;
+	text-overflow: shrink;
+}
+

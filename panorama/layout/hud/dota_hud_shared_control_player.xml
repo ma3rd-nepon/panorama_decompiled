@@ -1,0 +1,15 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/hudstyles.vcss" />
+		<include src="s2r://panorama/styles/hud/hud_reborn.vcss" />
+		<include src="s2r://panorama/styles/hud/dota_hud_scoreboard.vcss" />
+		<include src="s2r://panorama/styles/custom_ui.vcss" />
+	</styles>
+	<DOTASharedControlPlayer class="LeftRightFlow">
+		<ToggleButton id="UnitControlButton" onmouseout="UIHideTextTooltip();" onmouseover="UIShowTextTooltip( #DOTA_HUD_SharedUnits );" />
+		<ToggleButton id="HeroControlButton" onmouseout="UIHideTextTooltip();" onmouseover="UIShowTextTooltip( #DOTA_HUD_SharedHero );" />
+		<ToggleButton id="DisableHelpButton" onmouseout="UIHideTextTooltip();" onmouseover="UIShowTextTooltip( #DOTA_HUD_DisableHelp );" />
+	</DOTASharedControlPlayer>
+</root>

@@ -1,0 +1,12 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/loading_screen_background_image.vcss" />
+	</styles>
+	<DOTALoadingScreenBackgroundImage>
+		<Panel id="DefaultImage" />
+		<Image id="LoadImage" class="CustomImage" src="s2r://panorama/images/loadingscreens/hs_flying_arrow_loadingscreen/loadingscreen_tga.vtex" scaling="stretch" />
+		<Panel id="LoadPanel" />
+	</DOTALoadingScreenBackgroundImage>
+</root>

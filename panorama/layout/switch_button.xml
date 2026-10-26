@@ -1,0 +1,12 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/switch_button.vcss" />
+	</styles>
+	<DOTASwitchButton>
+		<Panel class="SwitchButton">
+			<Image class="SwitchButtonIcon" src="s2r://panorama/images/control_icons/24px/auto.vsvg" texturewidth="48px" textureheight="48px" />
+		</Panel>
+	</DOTASwitchButton>
+</root>

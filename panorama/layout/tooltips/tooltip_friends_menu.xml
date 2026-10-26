@@ -1,0 +1,11 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/tooltips/tooltip_friends_menu.vcss" />
+	</styles>
+	<DOTATooltipFriendsMenu class="TooltipFriendsMenuContents">
+		<Label id="NoFriendsReadyToPlayLabel" text="#DOTA_FriendsMenu_Tooltip_NoneReady" />
+		<Panel id="FriendsReadyToPlayList" />
+	</DOTATooltipFriendsMenu>
+</root>

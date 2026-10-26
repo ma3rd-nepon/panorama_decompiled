@@ -1,0 +1,80 @@
+/* Prettified by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io */
+
+.TreasureInfoContainer
+{
+	width: 900px;
+	flow-children: down;
+}
+
+.TreasureInfoContainer .TreasureTitle
+{
+	padding-top: 8px;
+	width: 100%;
+	horizontal-align: center;
+	margin-bottom: 2px;
+	font-family: titleFont;
+	color: whitesmoke;
+	text-align: center;
+	font-weight: semi-bold;
+}
+
+.TreasureInfoContainer .TreasureDescription
+{
+	width: 100%;
+	horizontal-align: center;
+	margin-bottom: 12px;
+	color: rgba(190, 200, 211, 0.8);
+	text-shadow: 0px 2px 12px rgba(0, 0, 0, 1);
+	text-align: center;
+	font-family: titleFont;
+	font-size: 20px;
+}
+
+#UnusualOddsTooltip
+{
+	width: 16px;
+	height: 16px;
+	margin-left: 4px;
+	margin-bottom: 2px;
+	tooltip-position: bottom;
+	wash-color: #99a6b5;
+	img-shadow: 0px 1px 4px black;
+	transition-property: wash-color;
+	transition-duration: 0.1s;
+}
+
+#UnusualOddsTooltip:hover
+{
+	wash-color: #e1e6ed;
+}
+
+.ChestIcon,.KeyIcon
+{
+	width: 128px;
+	height: width-percentage(100%);
+	margin-right: 24px;
+	vertical-align: center;
+	background-size: cover;
+	background-position: center;
+	visibility: collapse;
+}
+
+#UnlockChestButton,#RecycleButton,#OpenAnotherButton
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #4aaed0 ), to( #13426a ) );
+}
+
+@keyframes 'GlowTreasureButtonPrimary'
+{
+	0%
+	{
+		brightness: 1;
+	}
+	
+	100%
+	{
+		brightness: 2.5;
+	}
+	
+}
+

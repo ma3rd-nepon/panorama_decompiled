@@ -1,0 +1,16 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/guild_banner.vcss" />
+	</styles>
+	<DOTAGuildBanner>
+		<Panel id="BackgroundColor" />
+		<Panel class="Darkener" />
+		<Panel id="PatternOverlay" class="SecondaryColored" />
+		<Panel id="StripingBG" class="SecondaryColored" />
+		<Panel id="Striping" class="PrimaryColored" />
+		<DOTAGuildImage id="GuildLogo" />
+		<Panel id="Overlay" />
+	</DOTAGuildBanner>
+</root>

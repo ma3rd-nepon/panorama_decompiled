@@ -1,0 +1,16 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/carousel_list.vcss" />
+	</styles>
+	<DOTACarouselList>
+		<Panel id="ListContainer" class="TopBottomFlow">
+			<Panel id="TopGamesHeader">
+				<Label text="#DOTA_Custom_Game_Most_Popular" />
+			</Panel>
+			<Panel id="ListColumn" />
+		</Panel>
+		<Carousel id="carousel" tabindex="1" selectionpos="0,1" focus="edge" focus-offset="170px" wrap="false" selectionposboundary="vertical" />
+	</DOTACarouselList>
+</root>

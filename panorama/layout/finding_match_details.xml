@@ -1,0 +1,13 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/finding_match_details.vcss" />
+	</styles>
+	<DOTAFindingMatchDetails>
+		<Label class="MatchType" text="{s:match_type}" />
+		<Label class="GameModesAndRegions" text="{s:game_modes} / {s:regions}" />
+		<Label id="FastQueueType" class="QueueType" text="#DOTA_RR_RoleQueue" />
+		<Label id="PointChangeLabel" html="true" />
+	</DOTAFindingMatchDetails>
+</root>

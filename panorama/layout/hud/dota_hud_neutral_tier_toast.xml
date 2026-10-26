@@ -1,0 +1,15 @@
+<!-- xml reconstructed by Source 2 Viewer 1.0.3.4 - https://valveresourceformat.github.io -->
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss" />
+		<include src="s2r://panorama/styles/hudstyles.vcss" />
+		<include src="s2r://panorama/styles/hud/dota_hud_found_neutral_item_toast.vcss" />
+	</styles>
+	<DOTANeutralTierToast toast_duration_override="10s">
+		<Panel id="ItemDetails">
+			<Label id="TierToastHeader" text="#DOTA_NeutralItemTierToast_Header" html="true" />
+			<Label id="TierToastFoundLine" text="#DOTA_NeutralItemTierToast_FoundLine" />
+			<Label id="TierToastFooter" text="#DOTA_NeutralItemTierToast_Footer" />
+		</Panel>
+	</DOTANeutralTierToast>
+</root>
